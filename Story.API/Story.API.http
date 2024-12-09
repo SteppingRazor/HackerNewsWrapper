@@ -1,0 +1,5 @@
+### Request to fetch best stories sorted by score
+GET http://localhost:5000/api/v1/BestStories?n=5
+
+### Query parameters:
+# n: Number of best stories to fetch (integer, required, must be greater than 0).

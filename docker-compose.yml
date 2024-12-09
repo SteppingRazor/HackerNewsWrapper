@@ -1,0 +1,16 @@
+services:
+  story.api:
+    container_name: story-api-container
+    image: ${DOCKER_REGISTRY-}storyapi
+    build:
+      context: Story.API
+      dockerfile: Dockerfile
+    ports:
+      - "5000:8080"
+    depends_on:
+      - "redis-server"
+  redis-server:
+    container_name: redis-server
+    image: redis
+    ports:
+      - "6379:6379"
