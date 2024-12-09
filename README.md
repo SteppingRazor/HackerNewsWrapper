@@ -79,6 +79,8 @@ Open `HackerNewsWrapper.sln` in Visual Studio 2022 and run the `Docker Compose` 
 1. **Pagination Support**: Add support for paginated responses.
 2. **Authentication**: Implement authentication and authorization mechanisms to secure API endpoints and manage user access.
 3. **Rate Limiting**: Introduce rate-limiting middleware for better API control.
+4. **Refactor Service Registration**: Add extensions methods for service registriation.
+5. **Cache duration**: Add cache duration to appsettings
 
 ## Author
 
